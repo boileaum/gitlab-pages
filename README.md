@@ -13,15 +13,15 @@ Par rapport à la publication sur une page perso, Pages présente les avantages 
 ## Publier sur une URL en `math.unistra.fr`
 
 Pages permet de publier sur une URL qui contient un nom de projet ou
-d'équipe, etc., et ce, sans intervention de la part des administrateurs et sans avoir besoin de créer
-un serveur web dédié. Pour le projet GitLab `projectname` hébergé dans l'espace
+d'équipe et ce, sans intervention de la part des administrateurs et sans avoir besoin de créer
+un serveur web dédié. Pour le projet GitLab `projectname` qui appartient à
 `username` ou `groupname`, l'adresse de publication sera :
 
 ```
 https://[username|groupname].pages.math.unistra.fr/[projectname]
 ```
 
-> `[projectname]` est optionnel s'il correspond à `"[username|groupname].pages.math.unistra.fr"`
+> `[projectname]` est optionnel s'il correspond à `[username|groupname].pages.math.unistra.fr`
 
 Pour vous donner un exemple, Vincent et Matthieu publient avec GitLab Pages le mini site 
 <https://formation-python.pages.math.unistra.fr> dont les sources sont hébergées
