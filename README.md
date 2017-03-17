@@ -6,7 +6,7 @@ Depuis le serveur <https://gitlab.math.unistra.fr>, GitLab Pages vous permet de 
 
 - **publier un site web statique** : avec un générateur comme Jekyll, on peut
 créer des sites statiques modernes en *responsive design* (adaptés aux
-smartphones et tablettes). Un exemple avec [ce site](http://nextflame.centralesupelec.fr/){:target="_blank"}
+smartphones et tablettes). Un exemple avec [ce site](http://nextflame.centralesupelec.fr/ "tttt" target="_blank")
 qui est construit avec Jekyll.
 - **mettre en ligne des pdf** d'articles de livres, de cours, d'énoncé d'exercices, etc., construits à partir de sources Tex, par exemple.
 
