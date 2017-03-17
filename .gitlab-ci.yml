@@ -5,6 +5,7 @@ pages:
   image: registry.math.unistra.fr/formation-info/pages:debian-pandoc
   script:
     - pandoc -c github-pandoc.css -t html5 README.md -o index.html
+    - mkdir public
     - cp logoIRMA.gif github-pandoc.css index.php public/
   artifacts:
     paths:
