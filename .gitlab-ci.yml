@@ -2,6 +2,7 @@ pages:
   tags:
     - pages
     - docker
+  images: debian:pandoc
   script:
     - pandoc -c github-pandoc.css -t html5 README.md -o index.html
     - cp logoIRMA.gif github-pandoc.css index.php public/
