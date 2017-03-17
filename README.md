@@ -2,17 +2,17 @@
 
 # Publier sur le web avec GitLab Pages
 
-Depuis le serveur <https://gitlab.math.unistra.fr>, GitLab Pages vous permet de :
+À partir de projets hébergés sur <https://gitlab.math.unistra.fr>, GitLab Pages permet de :
 
-- **publier un site web statique** : avec un générateur comme Jekyll, on peut
+- **publier un site web statique** : avec un générateur comme [Jekyll](https://jekyllrb.com/), on peut
 créer des sites statiques modernes en *responsive design* (adaptés aux
 smartphones et tablettes). Un exemple avec [ce site](http://nextflame.centralesupelec.fr/)
 qui est construit avec Jekyll.
 - **mettre en ligne des pdf** d'articles de livres, de cours, d'énoncé d'exercices, etc., construits à partir de sources Tex, par exemple.
 
-Par rapport à la publication sur une page perso, Pages présente les avantages a) et b) ci-dessous.
+Par rapport à la publication sur une page perso, Pages présente les deux avantages ci-dessous.
 
-### a) Publier sur une URL en *math.unistra.fr*
+### 1) Publier sur une URL en *math.unistra.fr*
 
 Pages permet de publier sur une URL qui contient un nom de projet ou
 d'équipe et ce, sans intervention de la part des administrateurs et sans avoir besoin de créer
@@ -30,7 +30,7 @@ https://[username|groupname].pages.math.unistra.fr/[projectname]
 sur [ce dépôt](https://gitlab.math.unistra.fr/formation-python/formation-python.pages.math.unistra.fr).
 - <a name="exemple2">**Exemple 2 :**</a> la page actuelle qui est publiée avec GitLab Pages depuis [ce dépôt public](https://gitlab.math.unistra.fr/formation-info/gitlab-pages).
 
-### b) Faire de l'édition collaborative
+### 2) Faire de l'édition collaborative
 
 Pages permet de publier un contenu édité de manière collaborative grâce à GitLab
 en utilisant Git pour enregistrer et fusionner les différentes contributions. 
@@ -41,7 +41,7 @@ il suffit d'ajouter une petite étape à la démonstration pour publier l'exempl
 <https://formation-info.pages.math.unistra.fr/expose-git-example/methodus-inveniendi-addII.pdf>.
 
 Chaque modification de la branche de publication du dépôt déclenche la mise à jour du site.
-Ainsi, dans l'[**exemple 1**](#exemple1), lorsque Vincent ou Matthieu pousse ses modifications sur la branche *master* du [dépôt GitLab](https://gitlab.math.unistra.fr/formation-python/formation-python.pages.math.unistra.fr),
+Ainsi, dans l'[**exemple 1**](#exemple1), lorsque Vincent ou Matthieu poussent leurs modifications sur la branche *master* du [dépôt GitLab](https://gitlab.math.unistra.fr/formation-python/formation-python.pages.math.unistra.fr),
 le site <https://formation-python.pages.math.unistra.fr> est automatiquement mis à jour.
 
 ## Documentation et support
