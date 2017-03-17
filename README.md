@@ -28,7 +28,7 @@ https://[username|groupname].pages.math.unistra.fr/[projectname]
 - <a name="exemple1">**Exemple 1 :**</a> Vincent et Matthieu publient avec GitLab Pages le mini site 
 <https://formation-python.pages.math.unistra.fr> dont les sources sont hébergées
 sur [ce dépôt](https://gitlab.math.unistra.fr/formation-python/formation-python.pages.math.unistra.fr).
-- <a name="exemple2">**Exemple 2 :**</a> la page actuelle qui est publiée avec GitLab Pages depuis [ce dépôt public](https://gitlab.math.unistra.fr/formation-info/gitlab-pages).
+- <a name="exemple2">**Exemple 2 :**</a> [la page actuelle](https://formation-info.pages.math.unistra.fr/gitlab-pages/) qui est publiée avec GitLab Pages depuis [ce dépôt public](https://gitlab.math.unistra.fr/formation-info/gitlab-pages).
 
 ### b) Faire de l'édition collaborative
 
