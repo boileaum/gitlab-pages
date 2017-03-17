@@ -12,7 +12,7 @@ qui est construit avec Jekyll.
 
 Par rapport à la publication sur une page perso, Pages présente les avantages a) et b) ci-dessous.
 
-## a) Publier sur une URL en *math.unistra.fr*
+### a) Publier sur une URL en *math.unistra.fr*
 
 Pages permet de publier sur une URL qui contient un nom de projet ou
 d'équipe et ce, sans intervention de la part des administrateurs et sans avoir besoin de créer
@@ -30,7 +30,7 @@ https://[username|groupname].pages.math.unistra.fr/[projectname]
 sur [ce dépôt](https://gitlab.math.unistra.fr/formation-python/formation-python.pages.math.unistra.fr).
 - <a name="exemple2">**Exemple 2 :**</a> la page actuelle qui est publiée avec GitLab Pages depuis [ce dépôt public](https://gitlab.math.unistra.fr/formation-info/gitlab-pages).
 
-## b) Faire de l'édition collaborative
+### b) Faire de l'édition collaborative
 
 Pages permet de publier un contenu édité de manière collaborative grâce à GitLab
 en utilisant Git pour enregistrer et fusionner les différentes contributions. 
