@@ -1,3 +1,5 @@
+![](logoIRMA.gif)
+
 # Publier avec GitLab Pages
 
 GitLab Pages est un service de <https://gitlab.math.unistra.fr> qui vous permet de :
@@ -10,7 +12,7 @@ qui est construit avec Jekyll.
 
 Par rapport à la publication sur une page perso, Pages présente les avantages ci-dessous.
 
-## Publier sur une URL en `math.unistra.fr`
+## Publier sur une URL en *math.unistra.fr*
 
 Pages permet de publier sur une URL qui contient un nom de projet ou
 d'équipe et ce, sans intervention de la part des administrateurs et sans avoir besoin de créer
@@ -47,11 +49,13 @@ Pour publier avec Pages, nous vous conseillons de lire la [documentation en lign
 (remplacez les mentions à `example.io` par `pages.math.unistra.fr`).
 
 Nous allons également proposer un atelier de prise en main de Git, GitLab et Pages.
-Si vous êtes intéressés, faites-le-nous savoir par retour de mail en précisant
+Si vous êtes intéressés, faites-le-nous savoir par mail à <info@math.unistra.fr> en précisant
 le niveau d'aide dont vous auriez besoin sur chacune des 3 parties.
 Pour ceux qui utilisent déjà GitLab, nous pouvons vous aider au cas par cas pour
 publier vos projets avec Pages.
 
-> Pour rappel, toutes les publications dans le domaine `math.unistra.fr` sont soumises
-> aux mêmes règles que les pages personnelles hébergées sur <http://irma.math.unistra.fr>.
-> Elles doivent en particulier respecter la [charte informatique de l'Unistra](https://services-numeriques.unistra.fr/fileadmin/upload/Services_numeriques/Documents/Services_OSIRIS/CERT/CHARTE_des_bons_usages_numeriques_v2.pdf). 
+**Rappel :** Toutes les publications dans le domaine `math.unistra.fr` sont soumises
+aux mêmes règles que les pages personnelles hébergées sur <http://irma.math.unistra.fr>.
+Elles doivent en particulier respecter la [charte informatique de l'Unistra](https://services-numeriques.unistra.fr/fileadmin/upload/Services_numeriques/Documents/Services_OSIRIS/CERT/CHARTE_des_bons_usages_numeriques_v2.pdf). 
+
+> Cette page est publiée avec GitLab Pages depuis [ce dépôt](https://gitlab.math.unistra.fr/formation-info/pages).
