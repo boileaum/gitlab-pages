@@ -6,7 +6,7 @@ pages:
   script:
     - pandoc -c github-pandoc.css -t html5 README.md -o index.html
     - mkdir public
-    - cp logoIRMA.gif github-pandoc.css index.php public/
+    - cp logoIRMA.gif github-pandoc.css index.html public/
   artifacts:
     paths:
       - public
