@@ -58,3 +58,5 @@ publier vos projets avec Pages.
 > **Rappel :** Toutes les publications dans le domaine `math.unistra.fr` sont soumises
 aux mêmes règles que les pages personnelles hébergées sur <http://irma.math.unistra.fr>.
 Elles doivent en particulier respecter la [charte informatique de l'Unistra](https://services-numeriques.unistra.fr/fileadmin/upload/Services_numeriques/Documents/Services_OSIRIS/CERT/CHARTE_des_bons_usages_numeriques_v2.pdf).
+
+*Version du 17 mars 2017*
