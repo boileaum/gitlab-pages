@@ -5,6 +5,7 @@ pages:
   image: registry.math.unistra.fr/formation-info/gitlab-pages:debian-pandoc
   script:
     - pandoc -c github-pandoc.css -H head.html -t html5 -s README.md -o index.html
+    - pandoc -c github-pandoc.css --title-prefix="GitLab Page" -H head.html -t html5 -s README.md -o index.html
     - mkdir public
     - cp logoIRMA.gif github-pandoc.css index.html tanuki.ico public/
   artifacts:
