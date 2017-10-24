@@ -1,6 +1,6 @@
 ![](logoIRMA.gif)
 
-# Publier sur le web avec GitLab Pages
+# Publier sur *math.unistra.fr* avec GitLab Pages
 
 À partir de projets hébergés sur <https://gitlab.math.unistra.fr>, GitLab Pages permet de :
 
