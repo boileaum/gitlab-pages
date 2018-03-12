@@ -2,7 +2,6 @@ pages:
   tags:
     - pages
     - docker
-  image: registry.math.unistra.fr/formation-info/gitlab-pages:debian-pandoc
   script:
     - pandoc -c pandoc.css --title-prefix="GitLab Pages" -H head.html -t html5 -s README.md -o index.html
     - mkdir public
