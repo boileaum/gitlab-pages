@@ -6,7 +6,7 @@ pages:
     - ./convert.sh
     - mv gitlab-pages.slides.html index.html
     - mkdir public
-    - cp index.html gitlab-pages.slides.html gitlab-pages.pdf public/
+    - cp index.html gitlab-pages.html gitlab-pages.pdf public/
     - cp -r images public/
   only:
     - master
