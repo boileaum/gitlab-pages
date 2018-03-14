@@ -1,6 +1,7 @@
 pages:
   script:
     - pip install -r requirements.txt
+    - python -m bash_kernel.install
     - ./convert.sh
     - mv gitlab-pages.slides.html index.html
     - mkdir public

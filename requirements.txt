@@ -1,1 +1,2 @@
+jupyter
 bash_kernel
