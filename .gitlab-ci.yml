@@ -4,7 +4,7 @@ pages:
     - ./convert.sh
     - mv gitlab-pages.slides.html index.html
     - mkdir public
-    - cp index.html gitlab-pages.html public/
+    - cp index.html gitlab-pages.html gitlab-pages.ipynb public/
     - cp -r images public/
   only:
     - pages
