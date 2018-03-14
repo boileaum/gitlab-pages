@@ -4,9 +4,12 @@ pages:
     - docker
   script:
     - ./convert.sh
+    - mv gitlab-pages.slides.html index.html
     - mkdir public
-    - cp gitlab-pages.html gitlab-pages.slides.html gitlab-pages.pdf public/
+    - cp index.html gitlab-pages.slides.html gitlab-pages.pdf public/
     - cp -r images public/
+  only:
+    - master
   artifacts:
     paths:
       - public
