@@ -1,7 +1,4 @@
 pages:
-  tags:
-    - pages
-    - docker
   script:
     - pip install -r requirements.txt
     - ./convert.sh
