@@ -8,6 +8,8 @@ pages:
     - cp index.html gitlab-pages.html gitlab-pages.ipynb public/
     - cp -r images public/
     - mv public/images/favicon.ico public/
+  tags:
+    - dind
   only:
     - pages
   artifacts:
