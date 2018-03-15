@@ -2,18 +2,11 @@ image: boileaum/jupyter
 
 pages:
   script:
-    - pip install -r requirements.txt
-    - python -m bash_kernel.install
-    - ./convert.sh
-    - mv gitlab-pages.slides.html index.html
-    - mkdir public
-    - cp index.html gitlab-pages.html gitlab-pages.ipynb public/
-    - cp -r images public/
-    - mv public/images/favicon.ico public/
+    - ./build.sh
   tags:
     - dind
   only:
-    - pages
+    - master
   artifacts:
     paths:
       - public
