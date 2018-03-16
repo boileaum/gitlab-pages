@@ -17,3 +17,9 @@ python -m bash_kernel.install
 ```
 jupyter notebook gitlab-pages.ipynb
 ```
+
+## Résumé
+
+GitLab Pages est une fonctionnalité de GitLab qui permet de publier du contenu web statique à partir de sources hébergées sur GitLab.
+Cet exposé présente les fonctionnalités de GitLab Pages du point de vue de l'utilisateur et fournit quelques éléments pour son administration dans une instance GitLab.
+Il se termine par une démonstration consistant à publier son propre support avec GitLab Pages sur `pages.math.cnrs.fr`.
