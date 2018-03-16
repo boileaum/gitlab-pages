@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir notebook==5.*
 RUN pip install --no-cache-dir --upgrade pip
 COPY requirements.txt /tmp
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
+RUN python -m bash_kernel.install
 
 ENV NB_USER jovyan
 ENV NB_UID 1000
